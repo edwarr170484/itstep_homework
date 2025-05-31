@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 30px 0;
+}
+
+.one {
+  background-color: #ff9fb0;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.two {
+  background-color: #e16377;  
+  margin: 5px 0;
+}
+
+.span_text {
+  background-color: #b73249;
+  line-height: 1.7;
+  padding: 6px 10px;
+}
+
+span {
+  color: #f5f5f5;
+  font-size: 24px;
+}
