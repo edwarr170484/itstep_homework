@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+#registration_form{
+    width: 320px;
+    height: 320px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-color: #ccc;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    display: block;
+    margin: 10px  auto;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color:#1cbc11 ;
+    color:#ffffff;
+    font-size: 1re;
+
+}
+
+.button:hover{
+  background-color:#14a20a;
+}

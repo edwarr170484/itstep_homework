@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.background {
+    background-color: white;
+    color:rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.background2{
+    background-color: #f5f5f5;
+    width: 406px;
+    height: 414px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+
+h4{
+    padding-left: 0%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rowblue{
+    background-color:#a5ccda;
+    height: 30px;
+    font-size:small;
+    padding-top: 7px;          
+    padding-bottom: 8px;
+    padding-left: 15px;   
+}
+
+.rowgrey{
+    background-color:#e2e2e2;
+    height: 30px;
+    font-size: small;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.rowlightblue{
+    background-color:#add8e6;
+    height: 30px;
+    font-size: small;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.checkbox{
+    color: rgb(0, 0, 0);
+    line-height: 100%;
+    padding-left:10px;
+}
+
+.task{
+    padding-left:10px;
+    font-size: smaller;
+}
+
+.marks{
+    color:#8c0f06;
+    padding-left:15px;
+    font-size: xx-small;
+}
+
+/*
+input[type="checkbox"]{
+  accent-color: transparent;
+  width: 10px;
+  height:10px;
+}*/
