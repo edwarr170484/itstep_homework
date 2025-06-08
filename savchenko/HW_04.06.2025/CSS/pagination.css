@@ -11,3 +11,12 @@ div > a {
     height: 40px;
     margin: 6px;
 }
+
+a:hover {
+    background-color: #ccc;
+}
+
+a:active {
+    background-color: #d10953;
+    color: #fff;
+}
