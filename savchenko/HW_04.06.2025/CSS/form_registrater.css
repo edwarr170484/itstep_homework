@@ -3,13 +3,16 @@
 }
 body {
     background-color: #f8f8f8;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 150px;
+    background-image: url(https://sotni.ru/wp-content/uploads/2023/08/kiberprostranstvo-cyberspace-9.webp);
+    background-position: center center;
+    background-size: cover;
 }
 
 div {
     width: 320px;
-    border: 1px transparent;
+    border: 1px;
     background-color: #fff;
     padding: 15px;
     margin: 0 auto;
