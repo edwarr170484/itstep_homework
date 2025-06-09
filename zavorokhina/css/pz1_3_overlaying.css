@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.overlaying{
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color: rgb(32, 136, 101);
+    color: white;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+}
+
+.box2 {
+    background-color: rgb(180, 180, 180);
+    margin-top: -10px;
+    margin-left: 30px;
+    color: black;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid white;
+}
