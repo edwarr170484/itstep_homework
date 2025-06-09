@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-image: url(https://sotni.ru/wp-content/uploads/2023/08/kiberprostranstvo-cyberspace-9.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+div {
+    width: 320px;
+    border: 1px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.register input {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+}
+
+.register input::placeholder {
+    color: #ccc;
+}
+.register button {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px transparent;
+    background-color: #1cbc11;
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+.register button:hover {
+    background-color: #14a20a;
+}
