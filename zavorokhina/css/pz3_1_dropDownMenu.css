@@ -1,0 +1,219 @@
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    color:#474747;
+}
+
+nav{
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 6px;
+    background-image: linear-gradient(#444, #111);     /*Add some style*/
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;    /*Add some style*/
+}
+
+nav ul ul {
+    display: none;
+    visibility: hidden;   /* All submenu items are hidden without hovering */
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: -4px;     
+}
+
+nav > ul > li > a{
+    text-transform: uppercase;
+    display: block;
+    padding: 11px 30px;
+    border-right: 1px solid #747474;
+    color: #999;
+    font-size: 12px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 0 #000;                  /*Add some style*/
+}
+
+nav > ul > li > a:hover{
+    color:white;
+}
+
+nav a {
+    color:#474747;
+}
+
+nav li{
+    position: relative;
+}
+
+nav li.subMenu:hover > ul {
+    display: block;
+    visibility: visible;
+}
+
+nav ul.subMenu2 > li{
+    display: none;
+}
+
+nav ul.subMenu2:hover > li{
+    display: block;
+}
+
+nav li.subMenu ul{
+    position: absolute;
+    background-image: linear-gradient(#444, #111);  /*Add some style*/
+    width: calc(100% + 20px);
+    border: 1px solid #3d3d3d;
+    -moz-border-radius: 5px;                  /* box-shadow for different browsers*/
+    -webkit-border-radius: 5px;               /* box-shadow for different browsers*/
+    border-radius: 5px;
+}
+
+nav li.subMenu ul a {
+    display: block;
+    padding: 9px 15px;
+    border: 1px solid #3d3d3d;
+    -moz-box-shadow: 0 1px 0 #111, 0 2px 0 #666;            
+    -webkit-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+}
+
+nav li.subMenu ul:first-child a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+nav li.subMenu ul li > a {
+    background-color: transparent;
+    color: #999;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    border: 1px solid #3d3d3d;
+    -moz-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    -webkit-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    box-shadow: 0 1px 0 #111, 0 2px 0 #666;                /*Add some style*/
+}
+
+nav li.subMenu ul li > a:hover {
+    background-color: #0186ba;
+    color: white;
+    border: 1px solid #0186ba;
+}
+
+nav li.subMenu ul li:first-child > a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+nav li.subMenu ul li:last-child > a {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+nav li.subMenu ul li:hover > ul{
+    visibility: visible; 
+    display: block;                 /*internal lists are shown when hovering*/
+    left: 100%;
+    top:0;
+}
+
+/*triangles in the drop-down menu*/
+.triangle::after {
+    display: block;
+    content: ' ';
+    width:12px;
+    height:12px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #3d3d3d;
+    position: absolute;
+    top:-12px;
+    left:20px;
+    box-sizing: border-box;
+}
+
+.triangle:hover::after {
+    display: block;
+    content: ' ';
+    width:12px;
+    height:12px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #0186ba;
+    position: absolute;
+    top:-12px;
+    left:20px;
+    box-sizing: border-box;
+}
+
+.triangle-left::before {
+    display: block;
+    content: ' ';
+    width:12px;
+    height:12px;
+    border-top: 6px solid transparent;
+    border-right: 6px solid  #3d3d3d;
+    border-bottom: 6px solid transparent;
+    position: absolute;
+    top:12px;
+    left:-12px;
+    box-sizing: border-box;
+    z-index: 110;
+}
+
+
+/*inverted triangles in the drop-down menu*/
+.triangle-left a::before {
+    display: block;
+    content: ' ';
+    width:12px;
+    height:12px;
+    border-top: 6px solid transparent;
+    border-right: 6px solid  #3d3d3d;
+    border-bottom: 6px solid transparent;
+    position: absolute;
+    top:12px;
+    left:-12px;
+    box-sizing: border-box;
+    z-index: 110;
+}
+
+.triangle-left:hover::before {
+    display: block;
+    content: ' ';
+    width:12px;
+    height:12px;
+    border-top: 6px solid transparent;
+    border-right: 6px solid  #0186ba;
+    border-bottom: 6px solid transparent;
+    position: absolute;
+    top:12px;
+    left:-12px;
+    box-sizing: border-box;
+}
+
+.triangle-left a:hover::before {
+    display: block;
+    content: ' ';
+    width:12px;
+    height:12px;
+    border-top: 6px solid transparent;
+    border-right: 6px solid  #0186ba;
+    border-bottom: 6px solid transparent;
+    position: absolute;
+    top:12px;
+    left:-12px;
+    box-sizing: border-box;
+}
