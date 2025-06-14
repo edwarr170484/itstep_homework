@@ -1,0 +1,22 @@
+main {
+  position: relative;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  background-color: #6d13c1;
+  border-radius: 50%;
+  border: none;
+  color: antiquewhite;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+button:hover {
+  background-color: #51108e;
+}

@@ -18,6 +18,10 @@ button {
   font-size: 18px;
 }
 
+button:hover {
+  background-color: #1c1cff;
+}
+
 div {
   width: 40px;
   height: 22px;
