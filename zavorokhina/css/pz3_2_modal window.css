@@ -1,0 +1,151 @@
+body {
+    font: 14px/1 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 25px 10px 0;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #434343;
+    font-weight: 400;
+    font-size: x-large;
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.button-wrapper {
+    padding: 40px;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    padding: 15px 20px;
+    width: 236px;
+    height: 61px;
+    margin: 8px;
+    margin-bottom: 50px;
+    color: #efe;
+    background-color: #458ecc;
+    text-shadow: 1px 1px 1px #30698F;
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    /*vertical alignment of an inline, inline-block or table-cell box*/
+    vertical-align: middle;
+    /*shadow under the button*/
+    box-shadow: 0px 9px 0px #3a7faa, 0px 4px 15px rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: 0 none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.submit {
+    /*transform to capital letters*/
+    text-transform: uppercase;
+    color: #efd959;
+}
+
+.author {
+    color: #2c2c2c;
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.modal-wrapper:target {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    background: rgba(4, 10, 30, 0.8);
+}
+
+.modal-wrapper {
+    visibility: hidden;
+    pointer-events: none;
+    width: 100%;
+    height: 947px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    transition: all 1s ease-out;
+    opacity: 0;
+}
+
+.modal-wrapper:target .popup {
+    top: 50px;
+    transition: all 0.5s ease-out;
+}
+
+.popup {
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: -1000px;
+    margin: 15% auto;
+    padding: 5px 20px 13px 20px;
+    z-index: 10000;
+    transition: all 0.6s ease-out;
+    font-family: sans-serif;
+    color: #222222;
+    border-radius: 5px;
+    background: #fefefe;
+    text-align: left;
+}
+
+.close:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.close {
+    background-color: rgba(61, 61, 61, 0.8);
+    border: 2px solid #ccc;
+    color: #FFFFFF;
+    line-height: 20px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 10px #000000;
+    transition: all 0.5s ease-out;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 12px;
+    color: #646;
+}
+
+p {
+    margin: 0 0 5px;
+    line-height: 1.5;
+}
+
+.popup p a {
+    color: green;
+    text-decoration: none;
+}

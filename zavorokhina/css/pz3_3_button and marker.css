@@ -1,0 +1,62 @@
+/*centering elements*/
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.buttonIncoming {
+  width: auto;
+  height: 38px;
+  background-color: #0d6efd;
+  border-radius: 6px;
+  margin: 0 auto;
+  cursor: pointer;
+  color: white;
+  border-color: transparent;
+  padding: 6px 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.buttonIncoming:hover {
+  background-color: #0b5ed7;
+  z-index: 1;
+}
+
+.badge {
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #dc3545;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  position: absolute !important;
+  left: 100% !important;
+  top: 0 !important;
+  transform: translate(-50%, -50%) !important;
+  font-size: small;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  padding-top: 3px;
+  z-index: 2;
+}
+
+/*for screen readers*/
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
