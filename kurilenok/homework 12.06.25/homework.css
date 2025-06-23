@@ -1,0 +1,555 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Tack 1*/
+
+.tack1 {
+    padding: 30px;
+    width: 30%;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+    
+}
+
+.border_orange {
+    border: 5px solid orange;
+    border-top: none;
+    border-left: none;
+    
+}
+
+.border_yellow {
+    border: 5px solid yellow;
+}
+
+.border_orange2 {
+    border: 5px solid orange;
+    border-bottom: none;
+    border-right: none;
+}
+
+.border_text {
+    background-color: #fff;
+    font-size: 15px;
+    padding: 7px;
+}
+
+/*Tack 1*/
+
+/*Tack 2*/
+
+.black_background {
+    background-color: black;
+    padding: 15px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.link {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.vertical_space {
+    color: gray;
+}
+
+.red {
+    color: red;
+}
+
+.azure {
+    color: aqua;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/*Tack 2 end*/
+
+/*Tack 3*/
+
+.layering {
+    width: 300px;
+    font-size: 12px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+}
+
+.light_green {
+    background-color: rgb(201, 222, 201);
+    color: black;
+    padding: 5px 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+/*Tack 3 end*/
+
+/*Tack 4*/
+
+.black,
+.white {
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+/*Tack 4 end*/
+
+/*Tack 5*/
+
+.square_black,
+.square_blue,
+.square_orange {
+    width: 40px;
+    height: 40px;
+    margin: 10px 3px;
+}
+
+.square_black {
+    background-color: black;
+}
+
+.square_blue {
+    background-color: #0b56ea;
+}
+
+.square_orange {
+    background-color: orange;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.square_black:hover,
+.square_blue:hover,
+.square_orange:hover {
+    background-color: #333;
+}
+
+/*Tack 5 end*/
+
+/*Tack 6*/
+
+.bg_color {
+   background: url('/CSS/bg.webp') no-repeat;
+   background-size: cover;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   
+}
+
+.registration-form {
+    width: 320px;
+    padding: 15px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.input-field {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.registration {
+    background-color: #1cbc11;
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px;
+    width: 100%;
+}
+
+/*Tack 6 end*/
+
+/*Tack 7*/
+
+.task7 {
+    display: flex;
+    justify-content: center;
+}
+
+ .block {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: sans-serif;
+ }
+
+ .block_color {
+    width: 40px;
+    height: 40px;
+    background-color: #d10953;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+ } 
+
+ /*Tack 7 end*/
+
+ /*Tack 8*/
+
+.bread_crumbs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0b56ea;
+}
+
+.product {
+    color: #333;
+}
+
+li {
+    margin: 6px;
+}
+
+/*Tack 8 end*/
+
+ /*!--Tack 1.1*/
+
+.task {
+    width: 300px;
+    padding: 20px 40px;
+    background-color: rgb(236, 231, 231); 
+    margin-bottom: 30px;
+}
+
+.header {
+    color: #21481f;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.subtitle {
+    color: rgb(117, 142, 81);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.linkrepetitor {
+    font-size: 10px;
+    text-decoration: underline;
+    margin-left: 25%;  
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ /*Tack 1.1 end*/
+
+ /*Tack 2.2*/
+
+.dictionary_menu {
+    width: 130px;
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.dictionary_menu li {
+    list-style: none;
+    margin: 0;
+    border-bottom: 1px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    padding: 0;
+}
+
+.dictionary_website {
+    border-top: 1px solid gray;
+}
+
+.dictionary_menu li a {
+    display: block;
+    color: #0b56ea;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.dictionary_menu li a:hover {
+    color: #fff;
+    background-color: #4682B4;  
+}
+ /*Tack 2.2 end*/
+
+  /*Tack 2.3*/
+
+.background {
+    width: 330px;
+    padding: 10px;
+    background-color: #046753;
+    margin-bottom: 30px;
+}
+
+.black_border {
+    border: 1px solid black;
+    height: 250px;
+    position: relative;
+}
+
+.square_red {
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+    left: 30px;  
+}
+
+.square_green {
+    width: 150px;
+    height: 130px;
+    background-color: green;
+    border: 1px solid black;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.square_darkblue {
+    width: 70px;
+    height: 130px;
+    background-color: blue;
+    border: 1px solid black; 
+    position: absolute;
+    left: 30px;
+    top: 89px;
+}
+
+.square_yellow {
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+ /*Tack 2.3 end*/
+
+ /*Tack 2.4*/
+
+ .row_blacksquare {
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    width: 350px;
+ }
+
+ .blacksquare {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 3px solid gray;
+ }
+
+ .inscription {
+    color: #fff;
+    display: flex;
+    font-size: 10px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+ }
+
+  /*Tack 2.4 end*/
+
+  /*Tack 2.5*/
+.background_ring {
+    width: 330px;
+    padding: 10px;
+    background-color: #4c7d51;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.orange_ring {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+}
+
+.black_ring {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+ /*Tack 2.5 end*/
+
+  /*Tack 2.6*/
+
+.background_safety {
+    width: 400px;
+    padding: 3px;
+    background-color: red;
+    
+}
+
+.background_safety_menu {
+    width: 400px;
+    background-color: #333;
+    margin-bottom: 30px;
+}
+
+.safety_menu a {
+    color: #fff;
+}
+
+.safety_menu {
+    list-style: none;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.link_safety {
+    display: inline-block;
+}
+ /*Tack 2.6 end*/
+
+  /*Tack 2.7*/
+
+  .today {
+    width: 300px;
+    border: 1px solid black;
+  }
+
+  .today_websait {
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #d10953;
+    text-transform: uppercase;
+
+  }
+
+  .today_websait_list {
+    list-style: none;
+    padding-left: 10px;
+    font-family: sans-serif;
+    padding-right: 10px;
+  }
+
+  .today_list {
+    margin: 0;
+    padding-bottom: 5px;
+    
+  }
+
+  .numbers {
+    font-weight: bold;
+    margin-left: 145px;
+  }
+
+  /*Tack 2.7 end*/
+
+  /*Tack 2.8*/
+
+  .tack8 {
+    font-size: 13px;
+    color: #4682B4;
+    text-transform: uppercase;
+  }
+
+  .item {
+    width: 500px;
+    padding: 10px;
+    background-color: #aac2d5;
+    border-top: 3px solid gray;
+    border-bottom: 1px solid gray; 
+  } 
+
+  .schedule {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+
+  .time {
+    list-style: none;
+    margin: 0;
+    padding: 10px 40px;
+    color: gray;
+    font-size: 13px;
+  }
+
+  .result {
+     background-color: #aac2d5;
+     color: #fff;
+     border: none;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-radius: 5%;
+     text-transform: uppercase;
+     font-size: 10px;
+     margin-right: 10px;
+  }
+
+  /*Tack 2.8 end*/
+
+  
+ 
+
+
+
+
