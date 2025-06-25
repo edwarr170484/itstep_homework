@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "Anton";
+    font-weight: normal;
+    src: url("../../fonts/Anton/Anton-Regular.ttf"),
+        /*For different browsers, convert on cloudconvert.com*/
+        url("./fonts/Anton-Regular.otf"),
+        url("./fonts/Anton-Regular.eot"),
+        url("./fonts/Anton-Regular.woff"),
+        url("./fonts/Anton-Regular.woff2"),
+        url("./fonts/Anton-Regular.svg");
+}
+
+:root {
+    --color-black: #212529;
+    --color-white: #ffffff;
+    --color-lightgreen: #0f0;
+}
+
+header {
+    background: var(--color-black, #212529);
+    position: fixed;
+    padding: 10px 16px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 95px;
+    z-index: 3;
+    /*some special effects*/
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(71, 62, 62, 0.75);
+}
+
+.logo {
+    font-weight: bold;
+    color: var(--color-white, #ffffff);
+    font-size: 50px;
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+}
+
+.menu-toggler {
+    width: 40px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin: -17px;
+}
+
+/*menu via hr*/
+.menu-toggler hr {
+    border: none;
+    border-top: 3px solid var(--color-white, #ffffff);
+    border-radius: 1.5px;
+}
+
+/*menu via span*/
+/*.menu-toggler span{
+    width: 100%;
+    height: 3px;
+    border-radius: 1.5px;
+    background-color: white;
+}*/
+
+main {
+    flex-grow: 1;
+    background: var(--color-lightgray);
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/wallpaper.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--color-black, #212529);
+    opacity: 0.7;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.background .info {
+    width: 1100px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    float: none;
+    line-height: normal;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 27px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.info p {
+    padding: 12px 0 0 0;
+    margin: 0;
+    color: var(--color-lightgreen);
+    text-align: center;
+}
+
+.info img {
+    max-width: 190px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
+    animation: pulse 1.5s infinite;
+}
+
+.info h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: "Ubuntu Mono", sans-serif;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 12px 0 0 0;
+}
+
+.button_fixed {
+    width: 50px;
+    height: 50px;
+    background: var(--color-white);
+    border: none;
+    border-radius: 10px;
+    color: var(--color-black);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+    transition: all 0.2s linear;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.84);
+}
