@@ -34,14 +34,17 @@ header {
     background-color: black;
     padding: 15px 30px;
 }
+main *{
+    padding: 0;
+    margin: 0;
+}
 main {
     font-family: "Ubuntu Mono", monospace;
     height: 100%;
-    
 }
 .lead {
     height: 100vh;
-    background-image: url(https://psyfactor.org/news/i/neurobrain3.jpg);
+    background-image: url(https://unitydiv.com/wp-content/uploads/2025/02/web-development.jpg);
     background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +53,38 @@ main {
     justify-content: center;
     text-align: center;
 }
+.person {
+    backdrop-filter: blur(6px);
+    padding: 20px;
+}
 .person img {
     width: 180px;
     border-radius: 50%;
+    margin-bottom: 15px;
+}
+.person h1 {
+    color: #ff41c0;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.person p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #c7bdb0;
+    margin-bottom: 60px;
+}
+div button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+div button a {
+    display: block;
+    font-size: 25px;
+    padding: 3px 2px;
+    color: rgb(55, 55, 55);
+}
+div button a:hover {
+    color: blue;
 }
