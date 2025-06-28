@@ -1,0 +1,56 @@
+:root{
+    --color-white:#fff;
+}
+html, body {
+    height: 100%;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-white);
+    font-size: 35px;
+    font-family: "Anton", sans-serif;
+}
+.menu {
+    position: absolute;
+    width: 35px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    right: 30px;
+    top: 50%;
+    margin-top: -17px;
+}
+.menu hr {
+    border: none;
+    border-top: 2px solid var(--color-white);
+}
+header {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px 30px;
+}
+main {
+    font-family: "Ubuntu Mono", monospace;
+    height: 100%;
+    
+}
+.lead {
+    height: 100vh;
+    background-image: url(https://psyfactor.org/news/i/neurobrain3.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.person img {
+    width: 180px;
+    border-radius: 50%;
+}
