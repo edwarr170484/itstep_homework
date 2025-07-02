@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.incoming {
+    color: white;
+    background-color: rgb(37, 120, 237);
+    border: none;
+    font-size: 7px;
+    padding: 5px 8px;
+    border-radius: 10%;
+    display: flex;
+    margin: 50vh auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.incoming::before {
+    content: "99 +";
+    position: absolute;
+    padding: 1px 4px;
+    background-color: rgb(219, 37, 37);
+    border-radius: 40%;
+    top: -5px;
+    right: -8px;
+    font-weight: 20;
+    font-size: 7px;
+}
+
+.incoming:hover {
+    background-color: rgb(19, 90, 189);
+}

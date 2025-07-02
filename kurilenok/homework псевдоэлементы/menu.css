@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #111;
+    border-radius: 4px;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+nav > ul> li > a{
+    text-transform: uppercase;
+    display: block;
+    padding: 13px 25px;
+    border-right: 1px solid gray;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+nav > ul> li > a:hover{
+    color: white;
+}
+
+nav a {
+    color: #bebebe;
+}
+
+nav li {
+    position: relative;
+}
+
+ nav li.submenu:hover > ul{
+    display: block;
+ }
+
+ nav li.submenu ul {
+    position: absolute;
+    background: #3d3d3d;
+    width: calc(100% + 20px);
+    /*border: 1px solid #bebebe;*/
+ }
+
+ nav li.submenu ul a{
+    display: block;
+    padding: 9px 13px;
+    border-bottom: 1px solid #bebebe;
+ }
+ 
+  nav li.submenu ul li:hover > a{
+    background: #1077d8;
+    color: white;
+  }
+
+  nav li.submenu ul li a:hover .triamgle-left{
+    border-right: 6px solid #1077d8 !important;
+  }
+
+   nav li.submenu > ul li:hover ul{
+    display: block;
+    left: 100%;
+    top: 0;
+}
+
+.triamgle::after {
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #3d3d3d;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    box-sizing: border-box;
+}
+
+.triamgle-left::before {
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #3d3d3d;
+    position: absolute;
+    left: -12px;
+    top: calc(50% - 6px);
+    box-sizing: border-box;
+}
