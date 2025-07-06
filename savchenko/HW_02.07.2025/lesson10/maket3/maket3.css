@@ -2,4 +2,203 @@
     width: 600px;
     height: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+header .logo {
+    display: block;
+    width: 128px;
+    height: 40px;
+    margin-top: 40px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    padding: none;;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    color: #000;
+}
+main {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.template {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 544px;
+    height: 636px;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0 20px;
+}
+.template h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 0;
+}
+.template img {
+    background-color: #FFF0F0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.template p {
+    margin: 0 20px;    
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.template button {
+    width: 97px;
+    height: 42px;
+    margin: 20px auto;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+section {
+    width: 600px;
+    height: 292px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Noto Sans", sans-serif;
+    justify-content: space-evenly;
+}
+.text-l {
+    flex-direction: row-reverse;
+}
+.text-r img { 
+    width: 260px;
+    height: 260px;
+    border-radius: 8px;
+    margin: 16px 12px;
+}
+.img2 {
+    background-color: #FFA1B8;
+}
+section div {
+    width: 284px;
+    height: 238px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main section div h3 {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+main section div p {
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+main section div button {
+    width: 97px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.text-l img {
+    background-color: #C5F8FF;
+    width: 260px;
+    height: 260px;
+    border-radius: 8px;
+    margin: 16px 12px;
+    padding: 30px 0;
+}
+.img4 {
+    background-color: #FFE27B;
+}
+.content {
+    width: 600px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.content p {
+    margin-top: 0;
+    line-height: 153%;
+    letter-spacing: 0%;
+}
+hr {
+    width: 540px;
+    border: none;
+    border-top: 2px solid black
+}
+footer {
+    width: 560px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.note p{
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 142%;
+    margin: 0;
+}
+.social-media {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    width: 165px;
+    height: 63px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+}
+.contact a {
+    color: #000;
+    text-decoration: underline;
+}   
+.logo-end {
+    display: block;
+    width: 91px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 26.63px;
+    line-height: 100%;
+    color: black;
 }
