@@ -1,0 +1,35 @@
+html,body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 640px;
+    height: 72px;
+    opacity: 1;
+    background: #313131;
+}
+main{
+    width: 640px;
+    height: 750px;
+    background: #141415;
+}
+main h1{
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+}
+main a{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    color: #51ACFF;
+}
+.svg{
+    background-size: 20px;
+}
