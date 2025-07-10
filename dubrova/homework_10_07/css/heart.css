@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+
+.container {
+  width: 100%;
+  height: 100vw;
+  max-width: 1200px;
+  max-height: 600px;
+  background-color: black;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  color: aliceblue;
+  font-size: 77px;
+  font-family: 'Pacifico';
+  font-weight: 100;
+  font-style: italic;
+  margin: 0;
+
+  animation: title 4s linear infinite alternate-reverse both;
+}
+
+@keyframes title {
+  0% {
+    color: aliceblue;
+  }
+  10% {
+    color: #fadada;
+  }
+  20% {
+    color: #f7bcbc;
+  }
+  30% {
+    color: #e98c8c;
+  }
+  40% {
+    color: #f07171;
+  }
+  50% {
+    color: #ec5252;
+  }
+  60% {
+    color: #ee3939;
+  }
+  70% {
+    color: #ee2525;
+  }
+  80% {
+    color: #f31313;
+  }
+  90% {
+    color: #f50b0b;
+  }
+  100% {
+    color: #ff0000;
+  }
+
+
+}
+
+.heart {
+  display: block;
+  width: 300px;
+  animation: heartbeat 0.4s cubic-bezier(0.11, 0.18, 0.95, -0.56) infinite alternate-reverse both;
+  cursor: pointer;
+}
+
+.heart:hover {
+  animation: heartbeat 0.1s linear infinite alternate-reverse both;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
