@@ -1,0 +1,41 @@
+.heart {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg); /* Поворот квадрата */
+    margin: 150px auto;
+    animation: heart 1s infinite linear both;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%; /* Скругление углов для создания кругов */
+}
+
+.heart:before {
+    transform: translateX(-50%); /* Смещение влево */
+}
+
+.heart:after {
+    transform: translateY(-50%); /* Смещение вверх */
+}
+
+@keyframes heart {
+    from {
+    transform: scale(1) rotate(45deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(45deg); /* Немного увеличиваем */
+  }
+  to {
+    transform: scale(1) rotate(45deg);
+  }
+}
