@@ -1,0 +1,116 @@
+:root{
+    --color-white:#fff;
+}
+.email-template-3 {
+    width: 640px;
+    max-height: 1147px;
+    margin: 0 auto;
+}
+.apple-logo {
+    width: 100%;
+    height: 72px;
+    background-color: #313131;
+    margin: 0;
+}
+.apple {
+    display: block;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+main {
+    width: 100%;
+    background-color: #141415;
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 58px;
+    padding-right: 38px;
+    padding-left: 38px;
+    color: var(--color-white);
+    margin: 0;
+}
+.center a {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 47px;
+    color: #51ACFF;
+}
+.center img {
+    padding-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .info {
+    width: 418px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    color: var(--color-white);
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 96px;
+    height: 100%;
+    border-bottom: 4px solid #FDA472;
+}
+.info div span:nth-child(odd) {
+    font-weight: 400;
+    font-size: 10px;
+}
+.info div span:nth-child(2) {
+    font-weight: 700;
+    font-size: 30px;
+}
+footer {
+    width: 100%;
+    height: 218px;
+    background-color: #313131;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 116px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    font-family: 'Verdana', sans-serif;
+    width: 471px;
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    color: #7D7D7D;
+}
+footer p a {
+    color: #51ACFF;
+}
