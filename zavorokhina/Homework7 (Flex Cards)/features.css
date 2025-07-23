@@ -1,0 +1,153 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(226, 225, 225);
+}
+
+section {
+    padding: 48px 300px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    border:1px solid lightgray;
+    box-shadow: 0px 5px 25px 9px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 5px 25px 9px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 25px 9px rgba(0,0,0,0.15);
+}
+
+.container {
+    /*adaptive*/
+    max-width: 1320px;
+    /*adaptive*/
+    width: 100%; 
+    margin: 0 auto;
+    /*margin-right: auto;
+    margin-left: auto;*/
+    display: flex;
+}
+
+.section-header {
+    font-size: 30px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 8px;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 55px;
+    margin-top: 55px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cards .icon {
+    background-color: #0d6efd;
+    color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.card a {
+    color: rgb(4, 95, 231);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: rgba(4, 95, 231, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card a:hover {
+    color: rgb(4, 95, 231);
+    /*text-decoration: underline;
+    text-underline-offset: 3px;*/
+    text-decoration-color: rgba(4, 95, 231, 0.5);
+}
+
+.card a:after {
+    content: " ";
+    color: rgb(4, 95, 231);
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid rgb(4, 95, 231);
+    border-right: 1px solid rgb(4, 95, 231);
+    transform: rotate(45deg);
+}
+
+.card h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.card p {
+    margin-top: 10px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.card button {
+    background-color:  #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border-color: rgb(4, 95, 231);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 10px;
+}
+.card button:hover{
+    background-color: #0b5ed7;
+    color: white;
+}
+
+.flex-derection-row {
+    flex-direction: row !important;
+}
+
+.hanging-icons{
+    padding-bottom: 100px;
+}
+
+.hanging-icons .icon {
+    flex-shrink: 0;
+}
+
+.hanging-icons .card {
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.hanging-icons .card h3 {
+    margin-top: 0;
+}
+
+.hanging-icons .card p {
+    text-align: left;
+}
+
+.hanging-icons .card .icon {
+    background-color:rgb(233, 236, 239);
+    width: 48px;
+    height: 48px;
+    color: black;
+}

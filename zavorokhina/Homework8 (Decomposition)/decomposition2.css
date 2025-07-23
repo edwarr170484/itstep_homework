@@ -1,0 +1,313 @@
+/* Connecting fonts by downloading */
+@font-face {
+    font-family: "Noto_Sans";
+    font-weight: normal;
+    src: url("./fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+* {
+    /*font-family: "Noto_Sans";*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FFE7E7;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 600px;
+    max-height: 2997px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.wrapper header a {
+    font-size: 2rem;
+    color: black;
+}
+
+main {
+    height: auto;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+/* block1 */
+main .block1 {
+    width: 544px;
+    height: 636px;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 68px;
+}
+
+main .block1 h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+
+main .block1 img {
+    padding: 0;
+    margin: 0;
+}
+
+main .block1 p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+main .block1 button {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.13px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+    padding: 13px;
+    border-radius: 3px;
+}
+
+/* block2 */
+main .block2 {
+    width: 600px;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+main .halfOfBlock2 {
+    width: 284px;
+    height: 584px;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 16px;
+}
+
+main .halfOfBlock2 h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 34px;
+}
+
+main .halfOfBlock2 p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+main .block2 button {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.13px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+    padding: 13px;
+    border-radius: 3px;
+}
+
+/* block3 */
+main .block3 {
+    width: 600px;
+    height: 464px;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 0;
+}
+
+main .block3 h1 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 34px;
+}
+
+main .block3 p {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+main .block3 button {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.13px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+    padding: 13px;
+    border-radius: 3px;
+}
+
+/* block4 */
+main .block4 {
+    width: 600px;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+main .halfOfBlock4 {
+    width: 284px;
+    height: 584px;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 16px;
+}
+
+main .halfOfBlock4 h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 34px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+main .halfOfBlock4 p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+main .block4 button {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.13px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+    padding: 13px;
+    border-radius: 3px;
+}
+
+main .justDoIt p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+footer .footer-info p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 142%;
+}
+
+footer .footer-info .links {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*trying to align icons*/
+    align-content: baseline;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer .footer-info span {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 142%;
+    margin-top: 5px;
+}
+
+footer .footer-info span a {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 142%;
+    text-decoration: underline;
+    color: black;
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+
+footer .footer-info a {
+    font-size: 26.63px;
+    color: black;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
