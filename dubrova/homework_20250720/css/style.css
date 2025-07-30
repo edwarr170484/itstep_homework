@@ -164,11 +164,17 @@ header nav {
   font-weight: 700;
   font-size: 60px;
   line-height: 74px;
+  color: #4D533C;
+}
+
+.section_two a {
+  color: #D4D6D4;
+  text-decoration: underline;
 }
 
 footer {
   width: 100%;
-  height: 1000px;
+  height: 1200px;
   background-image: url(../images/Bg.jpg);
   background-size: cover;
   position: relative;
@@ -204,9 +210,96 @@ footer {
 }
 
 .help {
-  display: flex;  
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
+.help_elems {
+  display: flex;
+  position: relative;
+  top: 511px;
+  gap: 90px;
+}
 
+.help_elem h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.help_elem a {
+  display: block;
+  color: #b6c197;
+  margin-top: 21px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.help_info {
+  position: relative;
+  top: 511px;
+}
+
+.help_info h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.help_info a {
+  display: block;
+  color: #b6c197;
+  margin-top: 21px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.help_info h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.help_links {
+  display: flex;
+  gap: 15px;
+}
+
+.help_links div {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #444A34;
+  color: #4d533c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.help_links div:nth-child(3) {
+  background-color: #FFD723;
+  color: white;
+}
+
+.footer_logo {
+  position: relative;
+  top: 655px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyr {
+  color: #B5C096;
+  font-size: 14px;
+  font-weight: 400;
+}
 
 
