@@ -138,14 +138,12 @@
 //if (!(age >= 14 && age <= 90));
 //или:
 //if (age < 14 || age > 90);
-
 //if (-1 || 0) alert( 'first' );             // Выполнится. Результат -1 || 0 = -1, в логическом контексте true
 //if (-1 && 0) alert( 'second' );            // Не выполнится. -1 && 0 = 0,  в логическом контексте false
 //if (null || -1 && 1) alert( 'third' );     // Выполнится. Оператор && имеет больший приоритет, чем ||
                                            // так что -1 && 1 выполнится раньше вычисления: null || -1 && 1  -> 
                                            //                                               null || 1  ->  1
-
-                                           
+                                      
 //let login = prompt('Кто там?', '');
 //if (login === 'Admin') {
 //   let password = prompt('Пароль?', '');
@@ -161,3 +159,95 @@
 // } else {
 //     alert('Я вас не знаю');
 // }
+
+
+//Loops
+//Task7 loop while
+
+//let i = 3;
+//while (i) {
+//  alert( i-- );      
+//}
+
+//выведет 1:
+//let i = 3;
+//alert(i--); // выведет 3, затем уменьшит i до 2
+//alert(i--) // выведет 2, затем уменьшит i до 1
+//alert(i--) // выведет 1, затем уменьшит i до 0
+// все, проверка while(i) не даст выполняться циклу дальше
+//--------------//
+
+//Префиксный вариант ++i:
+//let i = 0;
+//while (++i < 5) alert( i ); // 1 2 3 4 
+
+//Постфиксный вариант i++
+//let i = 0;
+//while (i++ < 5) alert( i ); // 1 2 3 4 5
+//------------//
+
+//Task8 loop for
+//for (let i = 2; i <= 10; i++) {
+//  if ((i % 2) !== 0) continue;
+//  alert(i);  // 2 4 6 8 
+//}
+//for (let i = 2; i <= 10; i++) {
+//  if (i % 2 == 0) {
+//    alert( i );  // 2 4 6 8
+//  }
+//}
+//------------//
+
+//for (let i = 0; i < 3; i++) {
+//  alert( `number ${i}!` );
+//}
+//let i = 0;
+//while (i < 3){
+//alert( `number ${i}!` );
+//    i++;
+//}
+//------------//
+
+//let num;
+//do {
+//num = +prompt("Введите число, больше 100", 0);
+//} while ((num <= 100) && num);
+//if (num >= 100 && num) {
+//    alert('Число ' + num + ' больше ста');
+//}
+//------------//
+
+//let n = 20;
+//nextNumber:
+//for (let i = 2; i <= n; i++) { // Для всех i...
+//  for (let j = 2; j < i; j++) { // проверить, делится ли число..
+//    if (i % j == 0) continue nextNumber; // не подходит, берём следующее
+//  }
+//  alert( 'Число ' + i + ' - простое'); // простое число
+//}
+//------------//
+
+//Task9 Switch
+//let browser = prompt('Введите название браузера', '');
+//if (browser == 'Edge') {
+//  alert( "You've got the Edge!" );
+//} else if (browser == 'Chrome' || browser == 'Firefox' || browser == 'Safari' ||  browser == 'Opera') {
+//  alert( 'Okay we support these browsers too' );
+//} else {
+//  alert( 'We hope that this page looks ok!' );
+//}
+//------------//
+
+//const number = +prompt('Введите число между 0 и 3', '');
+//switch (number) {
+//  case 0:
+//    alert('Вы ввели число 0');
+//    break;
+//  case 1:
+//    alert('Вы ввели число 1');
+//    break;
+//  case 2:
+//  case 3:
+//    alert('Вы ввели число 2, а может и 3');
+//    break;
+//}
