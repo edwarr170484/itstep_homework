@@ -22,6 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 header nav {
@@ -505,6 +506,64 @@ main {
   max-width: 773px;
   max-height: 392px;
   padding: 0 131px 0 16px;
+}
+
+.prefooter {
+  min-width: 1440px;
+  margin: 0 auto;
+  background-color: #CEC4BC;
+  padding: 100px 136px;
+}
+
+.prefooter_text span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #645C55;
+}
+
+.prefooter_text h3 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  color: #1B1A1A;
+  margin: 0;
+}
+
+.get {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+footer {
+  min-width: 1440px;
+  margin: 0 auto;
+  background-color: #F7F7F7;
+  padding: 60px 136px;
+}
+
+.footer_text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #645C55;
+}
+
+.footer_icons {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_icons img {
+  cursor: pointer;
+  position: relative;
+  top: 20px;
 }
 
 
