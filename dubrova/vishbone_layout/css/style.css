@@ -362,3 +362,149 @@ main {
   top: 266px;
   left: 60px;
 }
+
+.featured {
+  min-width: 1440px;
+  margin: 0 auto;
+  background-color: #F7F7F7;
+  padding: 120px 120px 100px 120px;
+}
+
+.featured_container {
+  display: block;
+  position: relative;
+}
+
+.featured h2 {
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 42px;
+  letter-spacing: 0%;
+}
+
+.featured p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.featured_imgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured_img {
+  max-width: 375px;
+}
+
+.brewery {
+  max-width: 207px;
+  position: relative;
+  margin: 0 auto;
+  top: -420px;
+  right: 50px;
+}
+
+.featured_container span {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.featured_container h3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.featured_container button {
+  display: block;
+  width: 133px;
+  height: 46px;
+  border-radius: 14px;
+  background-color: #1B1A1A;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+  top: -130px;
+  right: 90px;
+  cursor: pointer;
+}
+
+.featured_container a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #1B1A1A;
+  display: block;
+  width: 100%;
+}
+
+.team {
+  min-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 136px;
+}
+
+.team_container {
+  align-items: flex-start;
+  position: relative;
+}
+
+.team_text {
+  max-width: 378px;
+  position: relative;
+  top: -30px;
+}
+
+.team_text h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0%;
+  color: #403E3B;
+}
+
+.team_text p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #645C55;
+}
+
+.team_text button {
+  width: 121px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #1B1A1A;
+}
+
+.team_people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  max-width: 773px;
+  max-height: 392px;
+  padding: 0 131px 0 16px;
+}
+
+
