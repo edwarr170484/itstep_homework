@@ -55,6 +55,19 @@ header nav button {
   cursor: pointer;
 }
 
+.burger {
+  display: none;
+}
+
+.burger span {
+  display: block;
+  width: 20px;
+  height: 4px;
+  background-color: #1B1A1A;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
 main {
   width: 100%;
 }
@@ -566,4 +579,34 @@ footer {
   top: 20px;
 }
 
+@media (max-width: 576px) {
+  .burger {
+    display: block;
+  }
 
+  header nav {
+    display: none;
+  }
+
+  .partners {
+    display: block;
+  }
+
+  .partners div {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .partners img {
+    width: 100%;
+  }
+
+  .partners button {
+    margin: 0 auto;
+  }
+
+  .reeding {
+    display: none;
+  }
+}
