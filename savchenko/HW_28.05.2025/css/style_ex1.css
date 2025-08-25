@@ -1,0 +1,68 @@
+.Apple {
+    background-color: rgb(232, 134, 150);
+    width: 505px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(243, 238, 238);
+    margin-bottom: 10px;
+    
+}
+
+.Orange {
+    background-color: rgb(232, 134, 150);
+    width: 505px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(243, 238, 238);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Pineapple {
+    background-color: rgb(232, 134, 150);
+    width: 505px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(243, 238, 238);
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+
+.Pear {
+    background-color: rgb(232, 134, 150);
+    width: 505px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(243, 238, 238);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Cherry {
+    background-color: rgb(232, 134, 150);
+    width: 505px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(243, 238, 238);
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+span {
+    background-color: rgb(173, 106, 106);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

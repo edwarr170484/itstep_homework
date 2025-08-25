@@ -1,0 +1,162 @@
+:root {
+    --main-font: "Noto Sans", sans-serif;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+}
+
+.logo {
+    width: 100%;
+    height: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    font-family: var(--main-font);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pink {
+    background-color: #eb70ff;
+    width: 544px;
+    height: 349px;
+    margin: 35px 28px 40px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.template {
+    align-self: center;
+    color: white;
+    font-size: 36px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    width: 276px;
+}
+
+.light_pink {
+    background-color: #f6c0ff;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.customize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 24px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    padding: 33px 42px;
+}
+
+.title {
+    font-size: 27px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 19px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.button {
+    width: 97px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 13px;
+    background-color: white;
+}
+
+.light_blue {
+    background-color: #defffd;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.yellow {
+    background-color: #f8ffa8;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 153%;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.paragraph p {
+    margin: 0;
+}
+
+.hr hr {
+    width: 540px;
+    border: 2px solid black;
+    margin-bottom: 52px;
+}
+
+.corporation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 142%;
+}
+
+.corporation p {
+    margin: 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    margin-top: 14px;
+    margin-bottom: 25px;
+}
+
+.corporation a {
+    text-decoration: underline;
+    color: #000;
+    padding-top: 7px;
+}
+
+.logo_end {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+} 

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff897;
+}
+
+.doubleFrame{
+    margin: 0 auto;
+    width: 600px;
+    height: 60px;
+}
+
+.main-border {
+    border: 5px solid rgb(226, 191, 33);
+}
+
+.main-frame {
+    background-color: rgb(250, 250, 250);
+    width: 600px;
+    height: 60px;
+}
+
+.outer-frame {
+    border-color: rgb(231, 102, 27);
+    border-left: none;
+    border-top: none;
+    width: 605px;
+    height: 65px;
+}
+
+.inner-frame {
+    border-color: rgb(231, 102, 27);
+    border-bottom: none;
+    border-right: none;
+    padding: 10px 15px;
+    width: 100%;
+    height: 100%;
+}

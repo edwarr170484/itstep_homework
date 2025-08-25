@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.start {
+    padding: 11px 11px;
+    background-color: rgb(100, 29, 166);
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    bottom: 10px; 
+    right: 10px;
+}
+
+.start::before {
+    content: "";
+    position: absolute;
+    width: 1px; /* Ширина линии */
+    height: 40%; /* Длина линии */
+    background-color: white; /* Цвет линии */
+    top: 7px; /* Позиционирование по вертикали */
+
+    left: 10px; /* Позиционирование по горизонтали */
+
+}
+
+
+.arrow::after {
+    content: "";
+    position: absolute;
+    width: 1px; /* Ширина линии */
+    height: 30%; /* Длина линии */
+    background-color: white; /* Цвет линии */
+    top: 6px; /* Позиционирование по вертикали */
+    right: 12px; /* Позиционирование по горизонтали */
+     transform: rotate(45deg);
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+    width: 1px; /* Ширина линии */
+    height: 30%; /* Длина линии */
+    background-color: white; /* Цвет линии */
+    top: 6px; /* Позиционирование по вертикали */
+    right: 8px; /* Позиционирование по горизонтали */
+     transform: rotate(-45deg);
+}
+
+.start:hover {
+    background-color: rgb(75, 12, 134);
+}
+
+
