@@ -37,18 +37,18 @@ a{
     color:white;
     font-size: 50px;
 }
-.container{
-    font-family: Ubuntu Mono;
+.wrapper{
     height: 100vh;
     background-image: url(https://static6.depositphotos.com/1036039/628/v/450/depositphotos_6288572-stock-illustration-technology-planet-vector-illustration.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+.container{
+    font-family: Ubuntu Mono;
 }
 .content{
+    position: fixed;
     width: 100%;
     bottom: 50px;
     display: flex;
