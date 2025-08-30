@@ -202,3 +202,11 @@ h3 {
     margin-top: 0;
     color: #645C55;
 }
+.process {
+    width: 1200px;
+    height: 381px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
