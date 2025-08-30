@@ -110,7 +110,12 @@ p {
     color: #1B1A1A;
     cursor: pointer;
 }
-.container .firm {
+.container-1 {
+    max-width: 1440px;
+    width: 100%;
+    margin:0 auto;
+}
+.container-1 .firm {
     width: 768px;
     display: flex;
     margin: 0 auto;
@@ -180,6 +185,7 @@ h3 {
     background-image: url(../HW_08.2025/image/image3.png);
     display: flex;
     justify-content: end;
+    background-position: center;
 }
 .reeding div {
     width: 300px;
@@ -204,9 +210,261 @@ h3 {
 }
 .process {
     width: 1200px;
-    height: 381px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.title h5{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    color: #645C55;
+}
+.title h2 {
+    margin-top: 13px;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #1B1A1A;
+}
+.discribe_processes {
+    width: 1168px;
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 0;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.discribe_processes div {
+    width: 378px;
+    text-align: center;
+}
+.discribe_processes div h4 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #403E3B;
+}
+.discribe_processes div p {
+    font-style: 15px;
+    line-height: 24px;
+    font-weight: normal;
     align-items: center;
+    color: #645C55;
+    padding-left: 41px;
+    padding-right: 41px;
+    margin: 0;
+}
+.staircase {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    margin:0 auto;
+    background-image: url(../HW_08.2025/image/image4.png);
+    display: flex;
+    justify-content: end;
+    background-position: center;
+}
+.staircase div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin-right: 60px;
+}
+.staircase div h5 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #403E3B;
+}
+.staircase div p {
+    line-height: 24px;
+    margin-top: 0;
+    color: #645C55;
+}
+.container-black {
+    max-width: 1440px;
+    width: 100%;
+    margin:0 auto;
+    background-color: #403E3B;
+}
+.container-black > div {
+    width: 1168px;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 140px;
+    margin: 0 auto;
+}
+.container-black .clients {
+    width: 460px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.container-black .clients h5 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ECE7E4;
+    margin: 0;
+}
+.container-black .clients h3 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 38px;
+    color: #fff;
+    margin-top: 0;
+}
+.container-black .clients p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+    margin-top: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.container-black .logo-clients {
+    width: 432px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.swirling {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    margin:0 auto;
+    background-image: url(../HW_08.2025/image/image5.png);
+    display: flex;
+    justify-content: start;
+    background-position: center;
+}
+.swirling div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+.swirling div h5 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #403E3B;
+}
+.swirling div p {
+    line-height: 24px;
+    margin-top: 0;
+    color: #645C55;
+}
+.projects {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    margin:0 auto;
+    background-color: #F7F7F7;
+}
+.projects > div {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+}
+.projects .box-image {
+    width: 1168px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.projects .box-image .image6 {
+    width: 379px;
+    height: 450px;
+    background-image: url(../HW_08.2025/image/image6.png);
+    background-position: center;
+}
+.projects .box-image .image7 {
+    width: 379px;
+    height: 450px;
+    background-image: url(../HW_08.2025/image/image7.png);
+    background-position: center;
+}
+.projects .box-image .image7 h5 {
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #645C55;
+}
+.projects .box-image .image7 p {
+    font-size: 23px;
+    line-height: 30px;
+    margin-left: 35px;
+    color: #403E3B;
+    margin-top: 0;
+}
+.projects .box-image .image8 {
+    width: 379px;
+    height: 450px;
+    background-image: url(../HW_08.2025/image/image8.png);
+    background-position: center;
+}
+.projects > div > div:first-child {
+    width: 600px;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.projects > div > div:first-child h2 {
+   font-size: 39px;
+   font-weight: normal;
+   line-height: 42px;
+   color: #1B1A1A; 
+   margin: 0;
+}
+.projects > div > div:first-child p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.projects > div > div:last-child p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
 }
