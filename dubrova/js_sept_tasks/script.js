@@ -134,3 +134,110 @@ newTimeHour(time, 22);
 
 // 2.1
 
+class Figure {
+  constructor(aX, aY, bX, bY) {
+    this.aX = aX;
+    this.aY = aY;
+    this.bX = bX;
+    this.bY = bY;
+  }
+}
+
+const rectangle = new Figure(1, 4, 5, 2);
+
+function coords(obj) {
+  return `Rectangle coordinates: A(${obj.aX}, ${obj.aY}) and B(${obj.bX}, ${obj.bY})`;
+}
+
+function width(obj) {
+  let result = 0
+  if (obj.aX <= 0 && obj.bX <= 0) {
+    result = Math.abs(obj.bX - obj.aX);
+  } else if (obj.aX < 0 && obj.bX >= 0) {
+    result = Math.abs(obj.aX) + obj.bX;
+  } else {
+    result = obj.bX - obj.aX;
+  }
+  return result;
+}
+
+function height(obj) {
+  let result = 0
+  if (obj.aY <= 0 && obj.bY <= 0) {
+    result = Math.abs(obj.aY - obj.bY);
+  } else if (obj.bY < 0 && obj.aY >= 0) {
+    result = Math.abs(obj.bY) + obj.aY;
+  } else {
+    result = obj.aY - obj.bY;
+  }
+  return result;
+}
+
+function square(obj) {
+  let res = width(obj) * height(obj);
+  return res;
+}
+
+function perimeter(obj) {    
+  let res = (width(obj) + height(obj)) * 2;
+  return res;
+}
+
+function changeWidth(obj, change) {
+  let res = width(obj) + change;
+  return res;
+}
+
+function changeHeight(obj, change) {
+  let res = height(obj) + change;
+  return res;
+}
+
+function changeWidthAndHeight(obj, changeX, changeY) {
+  let res1 = changeWidth(obj, changeX);
+  let res2 = changeHeight(obj, changeY);
+  return `Width = ${res1}, height = ${res2}`;
+}
+
+function moveX(obj, move) {
+  let res1 = obj.aX + move;
+  let res2 = obj.bX + move;
+  return `Moving X: new coordinates - A(${res1},${obj.aY}) and B(${res2},${obj.bY})`
+}
+
+function moveY(obj, move) {
+  let res1 = obj.aY + move;
+  let res2 = obj.bY + move;
+  return `Moving Y: new coordinates - A(${obj.aX},${res1}) and B(${obj.bY},${res2})`;
+}
+
+function moveXY(obj, moveX, moveY) {
+  let res1 = obj.aX + moveX;
+  let res2 = obj.bX + moveX;
+  let res3 = obj.aY + moveY;
+  let res4 = obj.bY + moveY;
+  return `Moving X and Y: new coordinates - A(${res1},${res3}) and B(${res2},${res4})`;
+}
+
+function dotInFigure(obj, x, y) {
+  if (obj.bX - x > 0 && obj.aY - y > 0 && obj.aX < x && obj.bY < y) {
+    return `Yes! Dot in rectangle`;
+  } else {
+    return `Noo!! Dot is not in rectangle`;
+  }
+}
+
+
+console.log(coords(rectangle));
+console.log(`Width = ${width(rectangle)}`);
+console.log(`Height = ${height(rectangle)}`);
+console.log(`Square = ${square(rectangle)}`);
+console.log(`Perimeter = ${perimeter(rectangle)}`);
+console.log(`Changing of width = ${changeWidth(rectangle, 4)}`);
+console.log(`Changing of height = ${changeHeight(rectangle, -1)}`);
+console.log(`Changing of width and height: ${changeWidthAndHeight(rectangle, -3, 2)}`)
+console.log(moveX(rectangle, 5));
+console.log(moveY(rectangle, -5));
+console.log(moveXY(rectangle, 6, -1));
+console.log(dotInFigure(rectangle, 3, 3));
+console.log(dotInFigure(rectangle, 7, 3));
