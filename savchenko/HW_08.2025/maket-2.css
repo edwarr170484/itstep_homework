@@ -65,11 +65,14 @@ main .left {
 }
 main .image {
     width: 50%;
+    background-image: url(../HW_08.2025/image/image1.png);
+    background-size: cover;
+    background-position: center;
 }
-.image img {
+/* .image img {
     max-width: 100%;
     height: auto;
-}
+} */
 .left div {
     width: 600px;
     height: 566px;
@@ -144,6 +147,8 @@ h3 {
     margin: 0;
 }
 .icon-name {
+    width: 280px;
+    height: 100px;
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -186,6 +191,7 @@ h3 {
     display: flex;
     justify-content: end;
     background-position: center;
+    background-size: cover;
 }
 .reeding div {
     width: 300px;
@@ -274,6 +280,7 @@ h3 {
     display: flex;
     justify-content: end;
     background-position: center;
+    background-size: cover;
 }
 .staircase div {
     width: 300px;
@@ -358,6 +365,7 @@ h3 {
     display: flex;
     justify-content: start;
     background-position: center;
+    background-size: cover;
 }
 .swirling div {
     width: 300px;
@@ -396,7 +404,7 @@ h3 {
     padding-right: 16px;
     padding-top: 20px;
 }
-.projects .box-image {
+.box-image {
     width: 1168px;
     display: flex;
     flex-direction: row;
@@ -409,12 +417,14 @@ h3 {
     height: 450px;
     background-image: url(../HW_08.2025/image/image6.png);
     background-position: center;
+    background-size: cover;
 }
 .projects .box-image .image7 {
     width: 379px;
     height: 450px;
     background-image: url(../HW_08.2025/image/image7.png);
     background-position: center;
+    background-size: cover;
 }
 .projects .box-image .image7 h5 {
     margin-top: 35px;
@@ -439,6 +449,7 @@ h3 {
     height: 450px;
     background-image: url(../HW_08.2025/image/image8.png);
     background-position: center;
+    background-size: cover;
 }
 .projects > div > div:first-child {
     width: 600px;
@@ -452,19 +463,139 @@ h3 {
    color: #1B1A1A; 
    margin: 0;
 }
-.projects > div > div:first-child p {
+.projects > div > p {
     font-size: 24px;
     line-height: 30px;
     color: #645C55;
     margin-top: 15px;
     margin-bottom: 0;
 }
-.projects > div > div:last-child p {
+.projects > div > div:last-child {
+    margin: 0 auto;
+}
+.projects div a {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #1B1A1A;
-    padding-top: 10px;
-    text-align: center;
     margin: 0;
+    cursor: pointer;
+}
+.container-2 {
+    width: 100%;
+    margin:0 auto;
+    max-width: 1440px;
+}
+.meet-our {
+    width: 1168px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 16px;
+}
+.meet-our .meet {
+    width: 378px;
+    margin: 0;
+    padding: 0;
+}
+.meet-our .meet h3 {
+    color: #403E3B;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+}
+.meet-our .meet p {
+    color: #645C55;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 14px;
+    padding-right: 20px;
+    margin-bottom: 41px;
+}
+.meet-our .meet a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.meet-our .team {
+    width: 773px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+footer .container1 {
+    background-color: #CEC4BC;
+    width: 100%;
+    margin:0 auto;
+    max-width: 1440px;
+}
+footer .container1 .get-in-touch {
+    width: 1168px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container1 .get-in-touch div {
+    width: 578px;
+}
+footer .container1 .get-in-touch h5 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    margin: 0;
+}
+footer .container1 .get-in-touch p {
+    font-size: 40px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin: 0;
+}
+footer .container1 .get-in-touch button {
+    margin-left: auto;
+    width: 145px;
+    height: 46px;
+    border: none;
+    background-color: transparent;
+}
+footer .container1 .get-in-touch button a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+}
+footer .container-2 .powered-by {
+    width: 1168px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+footer .container-2 .powered-by p {
+    padding-top: 20px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #645C55;
+}
+footer .container-2 .socialmedia {
+    width: 112px;
+    display: flex;
+    gap: 20px;
+}
+footer .container-2 .socialmedia a {
+    display: block;
 }
