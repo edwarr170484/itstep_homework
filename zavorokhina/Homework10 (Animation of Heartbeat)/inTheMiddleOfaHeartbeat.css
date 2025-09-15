@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(202, 121, 121);
+  padding: 40vh 0;
+  background-image: url("../img/hm10_background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heart {
+  animation: heartbeat 0.85s infinite;
+  background-color: red;
+  display: inline-block;
+  height: 50px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  width: 50px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.heart:before {
+  top: -25px;
+  left: 0;
+}
+
+.heart:after {
+  left: 25px;
+  top: 0;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1) rotate(-45deg);
+  }
+
+  20% {
+    transform: scale(1.25) rotate(-45deg);
+  }
+
+  40% {
+    transform: scale(1.5) rotate(-45deg);
+  }
+}
+
+button {
+  background-color: rgba(255, 233, 233, 0.5);
+  border: 1px solid red;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin: 300px auto;
+  height: 60px;
+  font-size: 1rem;
+  color: red;
+}
+
+button:hover {
+  background-color: rgba(236, 74, 74, 0.5);
+  border: 1px solid red;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-top: 300px;
+  height: 60px;
+  color: white;
+}
+
+button a {
+  color: red;
+}
+
+button a:hover {
+  color: white;
+}
