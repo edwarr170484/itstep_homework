@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url('/forestbridge.jpg');
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+
+.header {
+ position: absolute;
+  top: 140px;
+  left: 450px;
+  text-align: center;
+}
+
+.logo {
+  color: white;
+  margin: 10px;
+}
+
+.somo {
+  position: absolute;
+  top: 500px; 
+  left: 10px;
+}
+
+
+
+/*.header {
+  
+}
