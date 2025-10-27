@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__0e4918fe-9be5-403f-b813-accdbe286a1f&w=3840&q=75);
+    background-position: cover;
+}
+.wrapper {
+    position: relative;
+    font-family: "DM Mono", monospace;
+    font-style: normal;
+    color: #fff;
+
+}
+.left-up {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 25px;
+}
+div.center {
+    position: absolute;
+    /* Не могу понять почему не работают % */
+    top: 200px;
+    left: 42%;
+    text-align: center;
+}
+
+div.center p.coming {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+div.center p {
+    font-size: 25px;
+}
+hr {
+    width: 40%;
+}
+
+div.left-down {
+    padding: 0;
+    /* если ставлю позицию - абсолют, то не могу задать боттом */
+    position: fixed;
+    left: 25px;
+    font-size: 25px;
+    bottom: 0;
+}

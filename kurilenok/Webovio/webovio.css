@@ -1,0 +1,273 @@
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 24px 166px 130px;
+}
+.sandwich {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sandwich span {
+    display: block;
+    width: 18px;
+    height: 1px;
+    background-color: black;
+    margin-top: 3px;
+}
+
+.creative {
+    height: 100vh;
+    background-image: url('/Bitmap.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.creative_content {
+    width: 616px;
+}
+
+.creative span {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.creative h1 {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    padding-bottom: 24px;
+    padding-top: 42px;
+    line-height: 74px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.creative p {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 45px;
+    margin: 0;
+}
+
+.creative a {
+    color: #ffd723;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.deation {
+    display: flex;
+    gap: 60px;
+}
+
+.container h2 {
+    padding-top: 140px;
+    padding-bottom: 60px;
+    color: rgba(77, 83, 60, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.deation div {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+}
+
+.deation h3 {
+    color: rgba(77, 83, 60, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 27px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.deation p {
+    color: #4d533c;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.deation div a {
+    color: #ffd723;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    margin-top: auto;
+}
+
+.amazing {
+    background-color: rgba(250, 250, 250, 1);
+    width: 90%;
+    position: relative;
+    top: 180px;
+    padding: 70px 15px 70px 200px;
+}
+
+.amazing h2 {
+    font-size: 60px;
+    line-height: 74px;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+.amazing a {
+    color: rgba(212, 214, 212, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.address {
+    background-color: rgba(93, 101, 68, 1);
+    height: 100vh;
+}
+
+.phone {
+    padding-top: 300px;
+    display: flex;
+    gap: 68px;
+}
+
+.text_green {
+    color: rgba(182, 193, 151, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-style: normal;
+    margin: 0;
+}
+
+.text_white {
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 52px;
+}
+
+.text_white a {
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-style: normal;
+}
+
+.phone div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact {
+    display: flex;
+    gap: 140px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.email a{
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38%;  
+}
+
+.email {
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
+
+.icone {
+    display: flex;
+    gap: 10px;
+    
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 215, 35, 1);
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list > .text_white {
+    margin-bottom: 21px;
+}
+
+.logo_footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+hr {
+    border: 1px solid rgb(70, 77, 51);
+}
