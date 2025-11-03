@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  position: relative;
+}
+
+.modal_window {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #030c31d5;
+}
+
+.text {
+  position: relative;
+  margin: 15% auto;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.text p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.small {
+  font-size: 14px !important;
+}
+
+.text span {
+  color: green;
+}
+
+.close {
+  background-color: #0000005e;
+  padding-top: 2px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 2px solid #c8c8c8;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #bf0000b2;
+}
+
+
