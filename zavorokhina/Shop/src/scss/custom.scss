@@ -1,0 +1,48 @@
+@import "normalize";
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1120px
+// );
+@import "bootstrap";
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1320px
+// );
+
+.card {
+  max-width: 100%;
+}
+
+img {
+  margin: auto;
+  padding-top: 40px;
+  max-width: auto;
+  height: 300px;
+  // изображение отображено с сохранением пропорций:
+  object-fit: contain;
+}
+
+.card-body {
+  // закрепить кнопку с описанием внизу карточки:
+  position: sticky;
+  bottom: 5px;
+  left: 100%;
+  // отрицательное значение перемещает элемент влево, положительное - вправо:
+  transform: translatex(5px);
+  cursor: pointer;
+}
+
+// корзина:
+#cart {
+  right: 40px;
+  top: 15px;
+  z-index: 9;
+}
