@@ -1,0 +1,181 @@
+@media screen and (max-width: 1350px) {
+  .container {
+   width: 100%;
+ }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+   width: 900px;
+ }
+
+  .beautiful > div {
+    width: 400px;
+}
+
+  .reeding_house > div {
+    padding-right: 75px;
+}
+
+  .our_process_icon {
+    flex-direction: column;
+}
+
+  .our_process_icon p {
+    width: 300px;
+}
+
+  .happy_customers_icon {
+    flex-basis: 10%;
+    gap: 40px;
+}
+
+  .featured_projects_img {
+    flex-direction: column;
+    width: 375px;
+  }
+
+  .featured_projects_img > div {
+    gap: 270px;
+    left: 10%;
+    top: 37%;
+}
+
+  .featured_projects {
+    align-items: center;
+    padding-left: 30px;
+}
+ }
+
+
+
+/* 800*/
+
+ @media screen and (max-width: 800px) {
+
+  .container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+  nav, ul {
+    gap: 10px;
+}
+
+ button {
+   width: 100px;
+   height: 30px;
+   font-size: 12px;
+ }
+
+  .beautiful > div > span {
+    font-size: 13px;
+}
+
+  .beautiful > div {
+    padding-left: 10px;
+    width: 100%;
+}
+
+  h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+  .ourfirm {
+    gap: 30px;
+    padding-left: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ourfirm_text {
+    width: 350px;
+  }
+
+  .happy_customers {
+    padding-left: 30px;
+}
+
+  .happy_customers_icon {
+    gap: 35px;
+    
+}
+
+  .person_title {
+    flex-direction: column;
+    gap: 20px;
+}
+
+  .content {
+    gap: 20px;
+}
+  .meet_our_team {
+    padding-left: 30px;
+  }
+
+  .meet_our_team_text {
+    width: 60%;
+}
+
+  .column {
+    gap: 10px;
+}
+
+  .person_icon {
+  flex-direction: column;
+  width: 56px;
+  gap: 10px;
+}
+
+  .person {
+  padding-left: 0;
+}
+
+  .get_in_touch,
+  .footer  {
+    padding: 50px 30px;
+    gap: 50px;
+}
+
+  .content > div > h2  {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+  .white_button.beige {
+    margin-top: 0;
+ }
+
+  .social_media {
+    flex-direction: column;
+}
+}
+
+
+
+/* 400*/
+
+ @media screen and (max-width: 400px) {
+
+   .container {
+   width: 350px;
+ }
+
+  .beautiful {
+    width: 100%;
+  }
+
+  .image {
+    width: 0;
+  }
+
+  .beautiful > div  {
+    width: 300px;
+}
+
+  nav >ul > li {
+    font-size: 12px;
+  }
+
+ }

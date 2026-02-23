@@ -1,0 +1,67 @@
+@import "normalize";
+@import "bootstrap";
+
+body{
+  background-color: #ffffff;
+}
+
+.information_field {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 30px auto;
+  background-color: #e8edfc;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.information_field h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+#myForm1 div {
+  text-align: left;
+  // ease-in - the animation has a slow start:
+  // both - combines the behaviors:
+  animation: fieldfadeIn 1.5s ease-in both;
+  // padding: 20px;
+}
+
+@keyframes fieldfadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.form-label{
+  font-size: 1rem;
+  padding-right: 16px;
+  color:#858585;
+}
+
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 16px;
+}
+
+h4{
+  font-size: 1rem;
+  color: #f29102;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+button{
+ margin-top: 30px;
+}

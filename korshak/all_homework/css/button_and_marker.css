@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  display: block;
+  margin: 15% auto;
+  width: 125px;
+  height: 40px;
+  background-color: #2323ff;
+  color: aliceblue;
+  position: relative;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+}
+
+div {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  left: 100px;
+}
+
+button:hover {
+  background-color: #1616d3;
+}

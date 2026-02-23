@@ -1,0 +1,47 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  max-width: 960px;
+  position: relative;
+  aspect-ratio: 3/2;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+ 
+.slider img.active {
+  opacity: 1;
+  z-index: 4;
+}
+
+.slider h2 {
+  font-size: 120px;
+  color: red;
+  text-align: center;
+  position: relative;
+  transition: all 0.5s linear;
+  bottom: 50px;
+  z-index: 5;
+  top: 40px;
+}

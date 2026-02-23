@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    width: 100%;
+    border: none;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://kartin.papik.pro/uploads/posts/2023-06/1686741368_kartin-papik-pro-p-kartinki-krasivie-prirodi-na-rabochii-stol-55.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.open-modal {
+    display: flex;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #82d5e4;
+    color: rgb(89, 80, 66);
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.popup-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.cross {
+    width: 27px;
+    height: 28px;
+    margin-left: 535px;
+    border: none;
+    cursor: pointer;
+}
+
+.close-modal {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7a7676;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    right: 155px;
+    cursor: pointer;
+}
+
+.save {
+    width: 125px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4539f3;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.save:hover {
+    background-color: #3e91c5;
+}
+
+h3 {
+    margin: 0;
+}
+
+.modal-text {
+    margin-bottom: 50px;
+}
+
+.no-scroll {
+    overflow: hidden;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Profanity Checker API</title>
+    <link rel="icon" type="image/svg+xml" href="../../img/orangeAutumn.png">
+</head>
+<body>
+    <div class="information_field">
+    <h1>Let's check some words</h1>
+        <form id="myForm1" name="form" action="" onsubmit="sendMessage(event)">
+            <div class="mb-3">
+                <label for="exampleInputText" class="form-label">Write some text here:</label>
+                <input id="myForm1Text" type="text" name="message">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Check</button>
+            <div id="myChecker" class="checker"></div>
+        </form>
+    </div>
+</body>
+</html>
